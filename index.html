@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111616" />
+    <meta name="description" content="Boring Lava LLC — coming soon." />
+    <title>Boring Lava LLC — Coming Soon</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #111616;
+        --paper: #f3efe7;
+        --lava: #ec4a1d;
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body { min-height: 100%; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        background:
+          radial-gradient(ellipse 55% 42% at 50% 108%, rgba(236, 74, 29, .24), transparent 68%),
+          radial-gradient(ellipse 60% 45% at 50% -20%, rgba(255, 255, 255, .045), transparent 65%),
+          var(--ink);
+        color: var(--paper);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(100% - 3rem, 700px);
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+
+      .mark {
+        width: clamp(210px, 37vw, 300px);
+        aspect-ratio: 1;
+        margin: 0 auto clamp(2.25rem, 5vw, 3.5rem);
+        background: url("boring-lava-logo.png") center / contain no-repeat;
+        filter: drop-shadow(0 16px 24px rgba(0, 0, 0, .38));
+      }
+
+      h1 {
+        margin: 0;
+        color: var(--paper);
+        font-size: clamp(1.45rem, 2.4vw, 1.9rem);
+        font-weight: 650;
+        letter-spacing: .18em;
+        line-height: 1.2;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 1.1rem auto 0;
+        max-width: 31rem;
+        color: rgba(243, 239, 231, .68);
+        font-size: clamp(.92rem, 1.5vw, 1rem);
+        letter-spacing: .04em;
+        line-height: 1.65;
+      }
+
+      .rule {
+        width: 3rem;
+        height: 2px;
+        margin: 1.6rem auto 0;
+        background: var(--lava);
+        box-shadow: 0 0 18px rgba(236, 74, 29, .45);
+      }
+
+      footer {
+        position: fixed;
+        right: 1.5rem;
+        bottom: 1.25rem;
+        color: rgba(243, 239, 231, .38);
+        font-size: .68rem;
+        letter-spacing: .13em;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 520px) {
+        main { width: min(100% - 2.25rem, 700px); }
+        footer { right: 0; bottom: 1rem; width: 100%; text-align: center; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark" role="img" aria-label="Boring Lava LLC logo"></div>
+      <h1>Something is forming</h1>
+      <p>Boring Lava LLC is building something new. Check back soon.</p>
+      <div class="rule" aria-hidden="true"></div>
+    </main>
+    <footer>© 2026 Boring Lava LLC</footer>
+  </body>
+</html>
