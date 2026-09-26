@@ -23,42 +23,47 @@
 <body>
 <main>
 <h1>Farmers Market Story Privacy Policy</h1>
-<p class="meta">Boring Lava LLC · Effective September 25, 2026</p>
+<p class="meta">Boring Lava LLC · Effective September 26, 2026</p>
 
-<p>This policy explains what information the Farmers Market Story mobile game ("the Game") collects, how we use it, and the choices you have. "We", "us" and "our" mean Boring Lava LLC, the Game's developer. If you have questions, email <a href="mailto:support@boringlava.com">support@boringlava.com</a>.</p>
+<p>This policy explains what information the Farmers Market Story mobile game ("the Game") collects, how we use it, and the choices you have. "We", "us" and "our" mean Boring Lava LLC, the Game's developer. Questions: <a href="mailto:support@boringlava.com">support@boringlava.com</a>. For help with the Game, see <a href="../support/">Support</a>.</p>
 
 <h2>Summary</h2>
 <ul>
-  <li>You can play without creating an account. We never ask for your name, email address, phone number, or precise location.</li>
-  <li>Your game progress is saved on your device and, if you enable it, in your Apple or Google cloud-save service.</li>
-  <li>Our servers keep a random installation ID and records needed for daily rewards, events, purchases and ad rewards.</li>
-  <li>Rewarded ads are provided by Google AdMob, which collects device information under Google's own policy.</li>
+  <li>You can play without creating an account. We never ask for your name, email address, phone number, or location.</li>
+  <li>Your game progress is saved on your device.</li>
+  <li>Our servers keep a random player ID and the records needed for daily rewards, events, purchases and ad rewards.</li>
+  <li>The Game sends play analytics linked to that random ID. You can turn analytics off and delete them in Settings.</li>
+  <li>Where offered, optional rewarded ads come from Google AdMob, which collects device information under Google's own policy.</li>
   <li>Purchases are processed by Apple or Google. We never see your payment card details.</li>
-  <li>We do not sell your personal information.</li>
+  <li>We do not sell your personal information or share it for cross-context behavioral advertising.</li>
 </ul>
 
 <h2>Information we collect</h2>
 
 <h3>Game data stored on your device</h3>
-<p>Your board, inventory, progress, settings and similar gameplay state are stored locally on your device. This data stays on your device unless you use cloud saves.</p>
+<p>Your board, inventory, progress and settings are stored on your device. The Game excludes this data from device backups, so uninstalling the Game removes it.</p>
 
 <h3>Cloud saves</h3>
-<p>If you are signed in to Game Center (iOS) or Google Play Games (Android), the Game can store your save in that platform's saved-games service. That data is held by Apple or Google under their privacy policies; Boring Lava LLC does not operate a separate save-storage account for you.</p>
+<p>Where the Game offers cloud saves, your save is stored in Apple's or Google's saved-games service under their privacy policies. We do not run a separate save account for you and do not receive your cloud save.</p>
 
-<h3>Installation and player identifiers</h3>
-<p>When the Game connects to our servers it creates a random installation ID and session credentials. If you are signed in to Game Center or Google Play Games, we receive a verified, platform-issued player identifier so that rewards and purchases can be recovered if you reinstall on the same platform. We do not receive your Apple or Google account email or password.</p>
+<h3>Player ID and sign-in</h3>
+<p>When the Game first connects to our servers, it creates a random player ID and installation ID and receives session credentials. The credentials are kept in your device's secure storage (Keychain on iOS, Keystore on Android). If you are signed in to Game Center or Google Play Games, the Game can send a one-time platform verification so that rewards and purchases can be recovered after a reinstall on the same platform. We keep only a one-way hash of your platform player ID. We never receive your Apple or Google account email or password.</p>
 
 <h3>Rewards, events and purchases</h3>
-<p>To deliver daily rewards, event rewards and purchased items exactly once, our servers record reward claims, event participation and progress reported by the Game, and purchase transactions. For purchases we receive transaction information from Apple or Google (such as product, transaction ID, date, and refund status). Payment details are handled entirely by Apple or Google.</p>
+<p>To deliver rewards and items exactly once, our servers record daily-reward claims, event participation and progress (such as which items you delivered and when), in-game-currency offers you buy, and item deliveries. For real-money purchases we receive transaction information from Apple or Google: the product, the transaction or order identifier, purchase and refund status, and dates. Google Play purchase tokens are stored encrypted. Payment details are handled entirely by Apple or Google.</p>
 
 <h3>Rewarded advertising</h3>
-<p>The Game offers optional rewarded video ads through Google AdMob. When you choose to watch an ad, Google may collect information such as your device's advertising identifier, IP address, device model and operating system, and ad-interaction data, and may use it to serve, measure and personalize ads, subject to your device settings and any consent you give. On iOS, the Game asks for permission before any tracking as required by Apple's App Tracking Transparency. We receive confirmation that an ad was completed so we can grant the reward. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+<p>Where offered, you can choose to watch optional rewarded video ads provided by Google AdMob. When an ad loads, Google may collect information such as your IP address, device identifiers, device model and operating system, and how you interact with the ad. Google uses this to serve and measure ads, limit how often you see them, and prevent fraud. We ask Google to show only non-personalized ads and to restrict its data processing, so this information is not used to personalize the ads you see or to track you across other companies' apps and websites. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>. From Google we receive only a signed confirmation that an ad finished, which we use to grant your reward.</p>
 
-<h3>Diagnostics and gameplay analytics</h3>
-<p>If enabled, the Game sends limited diagnostic and gameplay events to our own servers, such as errors, tutorial and level progress, economy events, screen views, event participation, and ad or purchase outcomes. We do not collect screen recordings, screenshots, your saves, free-form text, or credentials through analytics. You can turn analytics off in the Game's settings.</p>
+<h3>Play analytics and diagnostics</h3>
+<p>The Game sends limited gameplay analytics to our own servers. These include session starts and lengths, player level, tutorial and story progress, orders, merges, in-game currency earned and spent, screens and dialogs viewed, event participation, in-game purchase outcomes, error codes, performance timings, platform, and app version. Records are linked to your random player ID and a per-launch session ID. Analytics never include your save, board positions, screenshots, recordings, free-form text, credentials, receipts, advertising identifiers or device model.</p>
+<p>Analytics are on by default. Turn off <em>Share play analytics</em> in the Game's Settings to stop sending them; this also deletes unsent analytics on your device. <em>Delete my analytics data</em> deletes the detailed analytics linked to your player ID on our servers.</p>
 
-<h3>Server logs</h3>
-<p>Like most online services, our servers and hosting provider (Amazon Web Services) automatically process technical information such as IP address, request time and app version to operate, secure and troubleshoot the service.</p>
+<h3>Server requests</h3>
+<p>Our servers and hosting provider (Amazon Web Services, including its CloudFront network) process your IP address and request details to deliver each request. We do not keep web access logs. Our application error logs record an error code and request number, not your IP address, and system logs are kept for 7 days.</p>
+
+<h3>Support email</h3>
+<p>If you email us, we receive your email address, your message, and anything you choose to include.</p>
 
 <h2>How we use information</h2>
 <ul>
@@ -66,45 +71,46 @@
   <li>To grant rewards for completed ads and enforce fair limits.</li>
   <li>To prevent fraud and abuse and keep our servers secure.</li>
   <li>To fix bugs and improve game balance and features.</li>
-  <li>To respond to support requests and meet legal obligations.</li>
+  <li>To answer support requests and meet legal obligations.</li>
 </ul>
 
 <h2>How we share information</h2>
-<p>We do not sell personal information and do not share it for cross-context behavioral advertising, except as performed by Google AdMob when you choose to watch ads as described above. We share information only with:</p>
+<p>We do not sell personal information or share it for cross-context behavioral advertising. We share information only with:</p>
 <ul>
-  <li><strong>Apple and Google</strong>, for platform sign-in, cloud saves and purchases.</li>
-  <li><strong>Google AdMob</strong>, for rewarded ads.</li>
-  <li><strong>Amazon Web Services</strong>, which hosts our servers.</li>
-  <li><strong>Authorities or others</strong> when required by law, or to protect our rights, users or the public, and as part of a merger or acquisition subject to this policy.</li>
+  <li><strong>Amazon Web Services</strong>, which hosts our servers and backups in the United States.</li>
+  <li><strong>Apple and Google</strong>, to verify platform sign-in and to confirm purchases and refunds.</li>
+  <li><strong>Google AdMob</strong>, for rewarded ads, as described above.</li>
+  <li><strong>Authorities or others</strong> when required by law or to protect our rights, users or the public, and a successor in a merger or acquisition, subject to this policy.</li>
 </ul>
 
 <h2>Data retention</h2>
 <ul>
-  <li>Player-associated analytics records: up to 90 days. Anonymous aggregated statistics: up to 13 months.</li>
-  <li>Reward, purchase and account-binding records: for as long as needed to provide the Game, prevent duplicate rewards, handle refunds and meet legal and tax obligations.</li>
-  <li>Server backups: rotated within about 30 days.</li>
+  <li>Detailed analytics: 90 days. Anonymous daily totals that cannot identify you: up to 13 months.</li>
+  <li>Player ID, reward, event, ad-reward, purchase and refund records: for as long as needed to provide the Game, prevent duplicate rewards, handle refunds and meet legal and tax obligations, or until you ask us to delete them. After a deletion request we keep only real-money purchase and refund records, unlinked from your game data, for 7 years for tax and accounting.</li>
+  <li>Support emails: as long as needed to resolve your request.</li>
+  <li>Server error logs: 7 days. Encrypted server backups: removed within about 30 days, so deleted data can remain in backups until then.</li>
 </ul>
 
 <h2>Your choices and rights</h2>
 <ul>
-  <li><strong>Analytics:</strong> turn off in the Game's settings.</li>
-  <li><strong>Ad tracking:</strong> manage it in iOS Settings › Privacy &amp; Security › Tracking, or Android Settings › Privacy › Ads.</li>
-  <li><strong>Local data:</strong> uninstalling the Game removes data stored on your device.</li>
-  <li><strong>Access or deletion:</strong> email <a href="mailto:support@boringlava.com">support@boringlava.com</a> to request a copy or deletion of data associated with your installation or player ID. We may need information from the Game (such as the ID shown in settings) to find your records. Some transaction records may be kept where the law requires.</li>
+  <li><strong>Analytics:</strong> turn off or delete in the Game's Settings.</li>
+  <li><strong>Ads:</strong> ads are optional. You can also reset or delete your advertising ID in iOS Settings › Privacy &amp; Security or Android Settings › Privacy › Ads.</li>
+  <li><strong>Device data:</strong> uninstalling the Game removes data stored on your device.</li>
+  <li><strong>Access or deletion:</strong> see <a href="../delete/">Delete your data</a>, or email <a href="mailto:support@boringlava.com">support@boringlava.com</a> with the Support ID shown in the Game's Settings › Privacy &amp; Support. Some transaction records may be kept where the law requires.</li>
 </ul>
-<p>Depending on where you live (for example California or Canada), you may have additional rights to know, access, correct or delete your personal information and not to be discriminated against for exercising them. Contact us to exercise these rights.</p>
+<p>Depending on where you live (for example California or Canada), you may have rights to know about, access, correct or delete your personal information, and not to be treated differently for using them. Contact us to exercise these rights.</p>
 
 <h2>Children</h2>
-<p>The Game is intended for a general adult audience and is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us information, contact us and we will delete it.</p>
+<p>The Game is intended for a general adult audience and is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has given us information, contact us and we will delete it.</p>
 
 <h2>Security</h2>
-<p>We use encryption in transit (TLS), hashed credentials, access controls and encrypted storage to protect information. No system is perfectly secure, but we work to protect your data.</p>
+<p>We use encryption in transit (HTTPS), secure credential storage on your device, hashed tokens, encrypted storage and backups, and restricted server access. No system is perfectly secure, but we work to protect your data.</p>
 
 <h2>International users</h2>
-<p>The Game is offered in the United States and Canada. Information is processed and stored in the United States.</p>
+<p>The Game is offered in the United States and Canada. Information is processed and stored in the United States (Oregon).</p>
 
 <h2>Changes to this policy</h2>
-<p>We may update this policy. We will post the new version on this page with a new effective date, and, for material changes, notify you in the Game where appropriate.</p>
+<p>We may update this policy. We will post the new version on this page with a new effective date and, for material changes, tell you in the Game where appropriate.</p>
 
 <h2>Contact</h2>
 <p>Boring Lava LLC<br />Washington, United States<br /><a href="mailto:support@boringlava.com">support@boringlava.com</a></p>
